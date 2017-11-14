@@ -1,7 +1,15 @@
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background: #EEE0E5;
+}
+
+
 .navbar {
     background-color: rgb(85, 82, 82);
     border-color: #E7E7E7;
-    padding: 50px 150px 10px 30px;
 }
 
 .navbar a {
@@ -12,45 +20,54 @@
     font-weight: bold; 
     
 }
+
+.navbar ul {
+    align-items: center;
+}
+
 .navbar img{
-    align-self: auto;
-    width:280px;
-    height:75px;
-
+    width:300px;
+    height:auto;
 }
 
-.welcome{
-    font-size: 10px;
-    color: red;
-    position: static;
-}
-
-body{
-    background: #EEE0E5;
-}
-
-.sunset img{
-   padding-left:60px; 
-   position:static;
-}
-
-.container img{
-    padding: 5px 20px 0px 0px;
+.sunset{
+   width:100%;
+   height:100%;
+   padding-bottom: 15px;
 }
 
 .titulo{
     color:red;
-    font-size:28px;
-    font-weight: bold; 
 }
 
 .square {
     background:gray;
-    width:300px;
-    height:300px;
+    width:80%;
     border: 25px solid; 
     border-color: gray; 
-    padding-top: 20px; 
+    margin: 15px auto 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+   
+}
+
+.square p {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 24px;
+    line-height: 50px;
+}
+
+.square h1 {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 120px;
+    font-weight: bold;
+    line-height: 80px;
+    margin-bottom: 3px;
+    margin-left: 40px;
 }
 
 .card {
@@ -63,12 +80,20 @@ body{
 
 footer{
     background:#696969;
-    height:80px;
 }
 
 footer li {
     color:white;
     list-style-type:none;
+}
+
+footer .footer-1 {
+    display: flex;
+}
+
+.banner-right {
+    width:100%;
+    height:auto;
 }
 
 
