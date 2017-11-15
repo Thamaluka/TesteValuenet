@@ -1,0 +1,20 @@
+Tecnologias:
+    -Html
+    -Css
+    -Bootstrap
+    -Fontawesome
+    
+    IDE:
+    -VisualCode
+
+Passo-a-Passo:
+    Após a montagem de pastas e arquivos tenho como rotina, primeiro  começar pela estrutura,fazer as divs,rows e cols, 
+    depois acrescentando textos e imagens e então finalizando com o CSS.
+
+Desafios:
+    Definitivamente a parte em todo o desenvolvimento, o qual obtive mais dificuldade é o Css, até por isso 
+    optei pelo bootstrap (e muito também por ter sido solicitado na vaga). Foi com muita pesquisa que a maioria
+    do documento foi criado.
+
+Facilidades:
+    A criação da estrutura geral do projeto.
